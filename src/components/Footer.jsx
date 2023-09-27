@@ -1,7 +1,8 @@
 import React from "react";
 import styled from "styled-components";
-import {  BsFacebook } from "react-icons/bs";
-import { AiFillGithub } from "react-icons/ai";
+import { BsLinkedin } from "react-icons/bs";
+import { AiFillInstagram, AiFillGithub } from "react-icons/ai";
+
 
 export default function Footer() {
   return (
@@ -23,13 +24,18 @@ export default function Footer() {
       </ul>
       <ul className="social__links">
         <li>
-          <a href="https://www.facebook.com/?sk=welcome&email_confirmed=mudaliarsharavan%40gmail.com"><BsFacebook /></a>
+          <a href=" https://www.instagram.com/sha.ra.van/">
+          <AiFillInstagram />Instagram</a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/in/sharavan-mudaliar-368972270">
+          <BsLinkedin />Linkedin</a>
         </li>
         <li>
           <a href="https://github.com/SharavanMudaliar/Hodophile">
-          <AiFillGithub/></a>
+          <AiFillGithub/>Github</a>
         </li>
-          
+        
       </ul>
     </FooterContainer>
   );
